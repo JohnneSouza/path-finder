@@ -1,0 +1,42 @@
+.node {
+  font-size: small;
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  background: rgb(3, 150, 20);
+  position: relative;
+  padding: 0.3rem;
+  border: 1px solid black;
+}
+
+.node.selected {
+  font-size: small;
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  background: rgb(92, 120, 241);
+  position: relative;
+  padding: 0.3rem;
+  border: 1px solid black;
+}
+
+.node:hover {
+  background: rebeccapurple;
+}
+
+.gCost {
+  float: right;
+}
+
+.hCost {
+  float: left;
+}
+
+.fCost {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+}
